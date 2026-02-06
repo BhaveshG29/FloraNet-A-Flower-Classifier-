@@ -37,11 +37,13 @@ FloraNet/
 │   └── model.pth  
 ├── input/  
 │   └── Custom images  
-└── visuals/  
-    ├── loss.gif  
-    ├── accuracy.gif  
-    ├── f1_score.gif  
-    └── metrics.png  
+└── visuals/
+    ├── loss.gif
+    ├── accuracy.gif
+    ├── f1_score.gif
+    ├── metrics.png
+    └── Custom Images Results/
+
 
 ---
 
@@ -91,6 +93,20 @@ FC (512 → 102)
 ## 7) Loss Curve
 
 ![Training Loss](visuals/loss.gif)
+
+---
+
+## Custom Image Predictions (Real-World Testing)
+
+To evaluate FloraNet in real-world conditions, I tested the model on flower images that I personally captured using my phone while roaming around the campus of IITH. These images were taken under natural lighting and varying backgrounds. On Average getting an Accuracy of 72%.
+
+The prediction results for these images are stored in:
+
+visuals/Custom Images Results/
+
+This provides a qualitative assessment of how well the model generalizes beyond the training dataset.
+
+![Predictions](visuals/Custom\ Image\ Results/Frangipani.png)
 
 ---
 
