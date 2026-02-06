@@ -106,7 +106,7 @@ visuals/Custom Images Results/
 
 This provides a qualitative assessment of how well the model generalizes beyond the training dataset.
 
-![Predictions](visuals/Custom\ Image\ Results/Frangipani.png)
+![Predictions](visuals/Custom%20Images%20Results/Frangipani.png)
 
 ---
 
