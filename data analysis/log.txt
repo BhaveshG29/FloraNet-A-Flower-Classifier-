@@ -1,0 +1,19 @@
+Collecting datasets:
+Oxford102 via https://www.kaggle.com/datasets/yousefmohamed20/oxford-102-flower-dataset
+
+Thus, torchvision.datasets.ImageFolder() will automatically identify them as these labels.
+
+Total Number of Unique Flowers=102 
+
+Resized the images to (96, 96) and saw very less amount of data-loss.
+(32,32) caused image quality loss in some or many images of Both datasets
+
+
+Mean and STD of Both Datasets:
+Oxford-102:
+mean = [0.4330, 0.3819, 0.2964]
+std = [0.2487, 0.1980, 0.2101]
+
+
+
+
